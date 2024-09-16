@@ -11,3 +11,5 @@ Australia.
 <sup>3</sup> Department of Pathology and Laboratory Medicine, Western University, London, Ontario Canada
 <sup>4</sup> Department of Medical Laboratory Sciences, School of Biomedical and Allied Health Sciences, University of
 Ghana.
+
+Figure 1. Distribution of patient samples with HIV 

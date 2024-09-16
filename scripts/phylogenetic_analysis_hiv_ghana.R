@@ -1,3 +1,7 @@
+##This script is for count the introductions of Subtype HIV to Ghana 
+##This script is a modification of the original script by Simon Dellicour for calculating the introduction of SARS-CoV-2.
+
+##Read libraries 
 library(seraphim)  
 library(lubridate) 
 library(diagram)
@@ -30,11 +34,11 @@ for (i in 1:length(seqIDs1)) {
     locations[i] = "other"
   }
   
-  # La fecha está en la última parte
+  # data is the last part 
   collection_dates[i] = parts[length(parts)]
 }
 
-# Creación de la tabla con los datos procesados
+# Creating the table with the processed data
 tab = cbind(gsub("'","",seqIDs1), locations, collection_dates)
 colnames(tab) = c("sequence_ID", "location", "collection_date")
 
@@ -79,10 +83,10 @@ for (i in (burnIn + 1):length(indices2)) {
   tree1 <- trees[selected_indices]
   temp_file <- paste0("TEMP_sampled_tree_", i, ".tree")
   
-  # Guardar el árbol temporalmente
+  # save the tree in temp 
   write(tree1, temp_file)
   
-  # Leer el árbol usando seraphim
+  # Read the tree using seraphim
   tree2 <- tryCatch({
     readAnnotatedNexus(temp_file)
   }, error = function(e) {
@@ -90,10 +94,10 @@ for (i in (burnIn + 1):length(indices2)) {
     return(NULL)
   })
   
-  # Verificar si se leyó el árbol correctamente
+  #Read the tree 
   if (is.null(tree2)) next
   
-  # Inicializar contadores
+  # Initialization of counters
   ghanaBranches <- 0
   ghanaIntroductions <- 0
   ghanaTipBranches <- 0
@@ -116,13 +120,13 @@ for (i in (burnIn + 1):length(indices2)) {
     }
   }
   
-  # Almacenar resultados
+  # Save results 
   ghanaBranches_list[i] <- ghanaBranches
   ghanaIntroductions_list[i] <- ghanaIntroductions
   ghanaTipBranches_list[i] <- ghanaTipBranches
   ghana_tMRCAs_list[[i]] <- ghana_tMRCAs
   
-  # Eliminar archivo temporal
+  # remove temporal file 
   file.remove(temp_file)
 }
 

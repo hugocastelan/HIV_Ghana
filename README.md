@@ -1,4 +1,4 @@
-## First introductions of HIV-1 CRF02_AG in the Republic of Ghana, Africa
+## Molecular epidemiology, evolution and transmission dynamics of HIV-1 in Ghana, West Africa
 
 Identification of the introduction of subtype HIV-1 CRF02_AG, in Ghana
 

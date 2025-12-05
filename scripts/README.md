@@ -12,3 +12,5 @@ lubridate,
 diagram,
 treeio,
 ape` 
+
+## Plot the phylogeography reconstruction 

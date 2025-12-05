@@ -18,5 +18,12 @@ Ghana.
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17566617.svg)]( https://zenodo.org/records/17566617)
 
 
+**The firts version of the preprint is avalible here:** 
+
+https://www.researchsquare.com/article/rs-7906379/v1 
+
+
+
+
 
 Figure 1. Distribution of patient samples with HIV 

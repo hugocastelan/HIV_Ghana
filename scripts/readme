@@ -1,9 +1,3 @@
-# Evolutionary fingerprinting of virus proteins: Scripts
+#  Molecular epidemiology, evolution and transmission dynamics of HIV-1 in Ghana, West Africa
 
-## Data collection
-* `codon_align.py` - translate a codon alignment into amino acid sequences, perform a multiple sequence alignment (calling out to MAFFT), and then apply the resulting alignment back to the original nucleotide sequences
-* `concat_genes.py` - used to deal with spliced exons in IAV and IBV data, for example M2
-* `extract_mat_peptides.py` - use Genbank annotations from a reference genome to partition a polypeptide into individual gene products
-* `get_all_accns.py` - given a list of Genbank accession numbers, retrieve full genome sequences, coding sequences and metadata using the Entrez API
-* `sortCDS.py` - use a reference Genbank record to classify CDS records by pairwise alignment
-* `split_genes.py` - split a FASTA file containing two sets of non-homologous gene sequences.  Used for IAV, where one genome segment can encode two genes, e.g., M1 and M2
+## Detecting introduccions 

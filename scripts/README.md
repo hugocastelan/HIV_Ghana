@@ -1,7 +1,7 @@
 # Molecular epidemiology, evolution and transmission dynamics of HIV-1 in Ghana, West Africa: Scripts
 
 ## Distribution of the data 
-* `disstribution_of_data.R` - 
+* `disstribution_of_data.R` -  This R script reads a metadata file for an HIV study and generates multiple descriptive epidemiological visualizations. It explores how different demographic and behavioral variables vary across years and how HIV subtypes are distributed across the population.
 
 ## Detecting introduccions of HIV to Ghana
 

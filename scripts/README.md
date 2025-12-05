@@ -16,3 +16,5 @@ ape`
 ## Plot the phylogeography reconstruction 
 
 * `phylogeography_HIV.r` - This script loads a BEAST phylogenetic tree and associated metadata, assigns geographic locations to tree tips, creates custom color palettes for each country, and generates multiple publication-ready visualizations of the HIV-1 CRF02_AG phylogeny. It highlights the Ghanaian clade, annotates tips with country labels, and exports several versions of the tree.
+
+This script takes a BEAST phylogenetic tree object (beast) and produces a fan-shaped phylogenetic visualization using ggtree.

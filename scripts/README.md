@@ -1,7 +1,7 @@
 # Molecular epidemiology, evolution and transmission dynamics of HIV-1 in Ghana, West Africa: Scripts
 
 ## Distribution of the data 
-
+* `disstribution_of_data.R` - 
 
 ## Detecting introduccions of HIV to Ghana
 

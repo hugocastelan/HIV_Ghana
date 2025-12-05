@@ -15,7 +15,7 @@ Ghana.
 
 **The data are available at the following Zenodo link:**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17566617.svg)]( https://zenodo.org/records/17566617)]
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17566617.svg)]( https://zenodo.org/records/17566617)
 
 
 
